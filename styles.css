@@ -1,34 +1,115 @@
-body{
- margin: 0;
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
+section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.17em; }
+h4 { font-size: 1.12em; }
+h5 { font-size: .83em; }
+h6 { font-size: .75em; }
+
+h2{
+  text-align: center;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+h6{
+  text-transform: uppercase;
+  color: #9d8c4b;
+}
 .container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1180px;
 }
 
-li {
-    float: left;
+.tile {
+  border: 1px solid #c1c1c1;
+  float: left;
+  width: 30%;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 2px;
+}
+.tile:hover {
+  border: 1px solid orange;
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 li a:hover {
-    background-color: #111;
+  background-color: #111;
+}
+
+#professional{
+  background-color: #efefef;
+}
+
+#trip{
+  background-color: #222;
+  color: #9d8c4b;
+}
+
+#hobby{
+  background-color: #efefef;;
+}
+footer {
+  background-color: #222;
+  color: #9d8c4b;
+  padding: 30px;
+}
+footer a{
+  color: #9d8c4b;
+  text-decoration: none;
+}
+.content img {
+  border-radius: 50%;
+  border: 5px solid orange;
+  padding: 2px;
+  width: 150px;
+  margin: 0 auto;
+  display: block;
+}
+
+.content h3{
+  text-align: center;
+}
+
+.content p{
+  text-align: center;
+  color: gray;
+}
+.split-screen {
+  float: left;
+  width: 45%;
+}
+.split-screen img{
+  width: 160px;
 }
