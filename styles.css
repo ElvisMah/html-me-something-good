@@ -15,15 +15,17 @@ h4 { font-size: 1.12em; }
 h5 { font-size: .83em; }
 h6 { font-size: .75em; }
 
-h2{
+h2 {
   text-align: center;
   font-weight: 900;
   text-transform: uppercase;
 }
-h6{
+
+h6 {
   text-transform: uppercase;
   color: #9d8c4b;
 }
+
 .container {
   padding-right: 15px;
   padding-left: 15px;
@@ -49,7 +51,8 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #9d8c4b;
+  padding: 10px;
 }
 
 nav li {
@@ -65,21 +68,22 @@ nav li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: #c6c6c624;;
 }
 
-#professional{
+#professional {
   background-color: #efefef;
 }
 
-#trip{
+#trip {
   background-color: #222;
   color: #9d8c4b;
 }
 
-#hobby{
+#hobby {
   background-color: #efefef;;
 }
+
 footer {
   background-color: #222;
   color: #9d8c4b;
@@ -89,6 +93,7 @@ footer a{
   color: #9d8c4b;
   text-decoration: none;
 }
+
 .content img {
   border-radius: 50%;
   border: 5px solid orange;
@@ -106,10 +111,12 @@ footer a{
   text-align: center;
   color: gray;
 }
+
 .split-screen {
   float: left;
   width: 45%;
 }
+
 .split-screen img{
   width: 160px;
 }
